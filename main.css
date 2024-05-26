@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(28, 232, 28);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+}
+
+.header a {
+    margin: 0 10px;
+}
+
+.head-img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.head-img:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.flyer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img.flyer {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img.flyer:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+button.info {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.info:hover {
+    background-color: #555555;
+}
+
+#info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact {
+    margin: 20px 0;
+}
+
+embed.contact {
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    border: none;
+}
